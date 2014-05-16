@@ -1,0 +1,88 @@
+/*
+Theme Name: Simple and Clean
+Author: Chris Mueller
+Description: The new and improved run club website theme (May 2014). Hope you like it!
+Version: 1.0
+
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+*/
+
+html {
+  margin: 0px;
+  height: 100%;
+  min-width: 720px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  background-color: #000000;
+}
+
+#banner {
+  height: 28px;
+  width: 100%;
+  background-color: #222222;
+}
+
+#quote {
+  float: left;
+  padding: 5px 10px;
+  color: #cccccc;
+  font-size: 14px;
+}
+
+#search {
+  float: right;
+}
+
+#title {
+  clear: both;
+  height: 42px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 42px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+#clouds {
+  position: absolute;
+  top: 28px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.cloud {
+  position: absolute;
+}
+
+.weather {
+  position: absolute;
+  top: 100px;
+  left: 53px;
+  width: 150px;
+  height: 80px;
+  overflow: hidden;
+}
+  
+.condition {
+  position: absolute;
+}
+
+#nav {
+	text-align: center;
+	height: 30px;
+	background-color: #000000;
+}
+
+#nav ul {
+  padding: 0px;
+}
+
+#nav li {
+	display: inline;
+	margin: 0 8px;
+	color: #888888;
